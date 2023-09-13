@@ -1,33 +1,32 @@
 <!doctype html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="/dist/output.css" rel="stylesheet">
-</head>
-<body>
-    <div class="mx-auto bg-orange-500 max-w-3xl container">
-        <div class="h-10 bg-blue-400">
-            <header>
-                header
-            </header>
-        </div>
 
-        <section class="flex flex-row-reverse bg-red-400">
-            <nav class="h-[101px] w-1/4 bg-green-500 " >
-                opciones
-            </nav>
-            <article class="w-3/4 bg- bg-sky-800 ">
-                contenido
-            </article>
-        </section>
-        
-        <footer class="clear-both bg-pink-400">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/dist/output.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="grid grid-cols-4 mx-auto bg-orange-500 max-w-3xl container">
+
+        <header class="col-span-4">
+            header
+        </header>
+
+        <nav class="h-[101px]  bg-green-500 ">
+            opciones
+        </nav>
+
+        <article class="col-span-3 bg- bg-sky-800 ">
+            contenido
+        </article>
+
+        <footer class="col-span-4 clear-both bg-pink-400">
             footer
         </footer>
-        
-
     </div>
-</div>
+    </div>
 </body>
+
 </html>
